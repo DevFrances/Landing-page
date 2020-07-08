@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: grey;
+    line-height: 1.5em;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/bg-header-desktop.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+.heading{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    padding-top: 8em;
+}
+.heading-content h1{
+    color: rgb(73, 67, 67);
+    font-size: 40px;
+    font-weight: bold;
+    padding: 1em 0 0.5em 0;
+}
+.heading-content p{
+    font-size: 20px;
+    padding-bottom: 2em;
+}
+.ios{
+    /* display: flex; */
+    padding: 1em 2em;
+    background-color: rgb(56, 197, 185, 0.8);
+    /* border: 1px solid rgb(56, 197, 185); */
+    border-radius: 40px;
+    color: white;
+}
+.mac{
+    /* display: flex; */
+    /* justify-content: left; */
+    padding: 1em 2em;
+    background-color: rgba(105, 73, 221, 0.8);
+    /* border: 1px solid rgb(105, 73, 221); */
+    border-radius: 40px;
+    color: white;
+}
+.device-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    /* width: 60%; */
+}
+
+
+/* section B: keep track of your snippets */
+.snippets-wrap{
+    display: flex;
+    justify-content: center;
+}
+.snippets-content{
+    text-align: center;
+}
+.snippets-content h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: rgb(73, 67, 67);
+    
+}
+.snippets-content p{
+font-size: 18px;
+}
+
+.tv-one-section{
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.device-one-content{
+    width: 40%;
+    margin-left: 50px;
+}
+.device-one-text{
+    padding: 2em 2em;
+    flex-direction: column;
+}
+
+.device-one-text h3{
+    font-weight: bold;
+    color: rgb(73, 67, 67);
+
+}
+.device-one-text p{
+    font-size: 18px;
+}
+.tv-one-section img{
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    /* margin: auto; */
+}
+
+
+/* scetion C */
+.access-wrap{
+    /* width: 50%; */
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.access-content{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.access-text{
+    text-align: center;
+    /* width: 60%; */
+}
+.access-text h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: rgb(73, 67, 67);
+    
+}
+.access-text p{
+font-size: 18px;
+padding-bottom: 1em;
+}
+
+.access-wrap img{
+    width: 60%;
+    height: auto;
+}
+
+
+/* section D: supercharge your workflow */
+.supercharge-wrap{
+    display: flex;
+    justify-content: center;
+}
+.supercharge-content{
+    /* width: 50%; */
+    display: flex;
+    text-align: center;
+}
+.supercharge-content h4{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: rgb(73, 67, 67);
+}
+.supercharge-content p{
+    font-size: 18px;
+}
+.supercharge-list{
+    /* width: 50%; */
+    padding: 5em ;
+    display: flex;
+    justify-content: center;
+}
+.list{
+    /* width: 25%; */
+    padding: 2em;
+    text-align: center;
+}
+.list h5{
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: black;
+}
+.list p{
+    font-size: 18px;
+}
+
+.tech-wrap{
+    display: flex;
+    justify-content: center;
+}
+.tech-contents img{
+    padding: 1em;
+    /* padding-right: 5em; */
+    
+}
+
+/* media query for phones */
+@media (max-width:500px){
+    .heading{
+        width: 90%;
+    }
+    .heading-content h1{
+        font-size: 35px;
+    }
+    .heading-content p{
+        font-size: 18px;
+    }
+    .ios{
+        margin-bottom: 10px;
+    }
+    .device-links{
+        flex-direction: column;
+    }
+    .tv-one-section img{
+        margin: auto;
+    }
+
+    /* section B */
+
+    .tv-one-section{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .tv-one-section img{
+      width: 80%;
+    }
+    .device-one-content{
+        width: 100%;
+        font-size: 18px;
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+    .device-one-text{
+        width: 100%;
+        margin-left: none;
+        text-align: center;
+    }
+
+    /* section C */
+    .access-content, .supercharge-content{
+        width: 90%;
+    }
+
+    /* scetion D */
+    .supercharge-content{
+        /* padding: 5em ; */
+    }
+    .supercharge-list{
+        flex-direction: column;
+        padding: 1.5em;
+        margin-bottom: 100px;
+    }
+    .list{
+        width: 100%;
+        padding: 2em 0;
+    }
+
+    /* section E */
+    /* .tech-wrap {
+        flex-direction: column;
+        text-align: center;
+    } */
+    .tech-contents{
+        text-align: center;
+    }
+    .tech-contents img{
+        /* flex-direction: column; */
+        padding: 2em;
+    /* padding-right: 5em; */
+        /* text-align: center; */
+    }
+}
+
+
+/* media query for tablets */
+@media (max-width:700px){
+    .heading{
+        
+    }
+}
