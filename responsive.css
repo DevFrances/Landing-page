@@ -1,0 +1,160 @@
+/* media query for phones */
+@media (max-width:599px) and (min-width:300px){
+    .heading{
+        width: 90%;
+    }
+    .heading-content h1{
+        font-size: 35px;
+    }
+    .heading-content p{
+        font-size: 18px;
+    }
+    .ios{
+        margin-bottom: 10px;
+    }
+    .device-links{
+        flex-direction: column;
+    }
+    .tv-one-section img{
+        margin: auto;
+    }
+
+    /* section B */
+
+    .tv-one-section{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .tv-one-section img{
+      width: 80%;
+    }
+    .device-one-content{
+        width: 100%;
+        font-size: 18px;
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+    .device-one-text{
+        width: 100%;
+        margin-left: none;
+        text-align: center;
+    }
+
+    /* section C */
+    .access-content, .access-text, .supercharge-content{
+        width: 90%;
+    }
+
+    /* scetion D */
+    .supercharge-list{
+        flex-direction: column;
+        padding: 1.5em;
+        margin-bottom: 100px;
+    }
+    .list{
+        /* width: 60%; */
+        margin: auto;
+        padding: 2em 0;
+    }
+
+    /* section E */
+    .tech-contents{
+        text-align: center;
+    }
+    .tech-contents img{
+        padding: 2em;
+        text-align: center;
+        display: flex;
+        /* justify-content: center; */
+        margin: auto;
+    }
+
+    .clipboard-wrap{
+        flex-direction: column;
+        width: 90%;
+    }
+    .clipboard-content h5 {
+        width: 80%;
+        margin: auto;
+    }
+    
+
+    /* footer */
+    .footer{
+        text-align: center;
+    }
+    .footer-wrap {
+        flex-direction: column;
+        
+    }
+    .footer-wrap img{
+        width: 50%;
+    }
+    .footer-wrap li{
+        margin-bottom: 10px;
+    }
+    .footer-wrap ul {
+        margin: auto;
+    }
+    .ios{
+        margin-right: 0px;
+    }
+    .social-icons{
+        flex-direction: column;
+        display: -webkit-box;
+    }
+}
+
+
+/* media query for tablets */
+@media (max-width:1000px) and (min-width:600px){
+    /* section A */
+    .heading{
+      width: 90%;  
+    }
+    /* section B */
+    .tv-one-section img {
+        width: 50%;
+    }
+    /* section C */
+    .access-content{
+        width: 90%;
+    }
+      /* section D */
+    .supercharge-list {
+        /* width: 70%; */
+        margin: auto;
+       
+        flex-direction: column;
+    }
+    .list {
+        width: 70%;
+       
+        margin: auto;
+    }
+/* section E */
+.tech-contents img{
+    padding: 2em;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    margin: auto;
+}
+    /* section F */
+    .clipboard-wrap {
+        width: 80%;
+        margin: auto;
+        /* display: flex; */
+        /* justify-content: center; */
+        text-align: center;
+    } 
+    }
+   
+@media (min-width:1024px){
+    .access-content {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
